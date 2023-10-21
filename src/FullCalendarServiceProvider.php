@@ -4,6 +4,7 @@ namespace Edfx\EdfxFullCalendar;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
+use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -40,7 +41,7 @@ class FullCalendarServiceProvider extends PackageServiceProvider
     protected function getAssets(): array
     {
         return [
-            AlpineComponent::make('edfx-fullcalendar', __DIR__ . '/../dist/fullcalendar.js'),
+            Js::make('edfx-fullcalendar', __DIR__ . '/../dist/fullcalendar.js'),
             Css::make('edfx-fullcalendar-styles', __DIR__ . '/../dist/fullcalendar.css'),
         ];
     }
