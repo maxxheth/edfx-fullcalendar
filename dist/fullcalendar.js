@@ -12128,5 +12128,7 @@ var eventModalHandlerInit = () => {
 };
 
 // resources/js/fullcalendar.js
-eventModalHandlerInit();
-calendarInit();
+document.addEventListener("DOMContentLoaded", function() {
+  eventModalHandlerInit();
+  calendarInit();
+});
