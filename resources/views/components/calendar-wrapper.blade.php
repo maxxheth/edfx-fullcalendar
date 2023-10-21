@@ -43,7 +43,7 @@
 </div>
 
 
-    <div id="calendar"></div>
+    <div id="calendar-inner"></div>
     <!-- <x-event-modal /> -->
 </div>
 <!-- </x-app> -->

@@ -28,7 +28,11 @@ export const calendarInit = () => {
 
     `;
 
-    const calendarEl = document.getElementById('calendar');
+    const calendarEl = document.getElementById('calendar-inner');
+
+    console.log({calendarEl})
+
+    console.log('This calendar script is running!')
 
     const calendar = new Calendar(calendarEl, {
       plugins: [dayGridPlugin, interactionPlugin],
