@@ -12068,8 +12068,8 @@ var sendFormData = async (formDataJSON, endpoint = "/create-event") => {
 // resources/js/calendar/event-modal-handler.js
 var eventModalHandlerInit = () => {
   const eventModal = document.getElementById("event-modal");
-  const closeButton = document.getElementById("close-button");
-  const eventForm = document.getElementById("event-form");
+  const closeButton = eventModal.querySelector("#close-button");
+  const eventForm = eventModal.querySelector("#event-form");
   closeButton.addEventListener("click", () => toggleModal());
   fetch("/get-random-calendar").then((response) => {
     if (!response.ok) {

@@ -4,8 +4,8 @@ import { sendFormData } from '../utilities/send-form-data.js';
 
 export const eventModalHandlerInit = () => {
   const eventModal = document.getElementById('event-modal');
-  const closeButton = document.getElementById('close-button');
-  const eventForm = document.getElementById('event-form');
+  const closeButton = eventModal.querySelector('#close-button');
+  const eventForm = eventModal.querySelector('#event-form');
 
   // window.toggleModal = (id = false, type = 'create', chosenDay = undefined) => {
   //   if (id && !isNaN(id)) {
