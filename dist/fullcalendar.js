@@ -12070,6 +12070,7 @@ var eventModalHandlerInit = () => {
   const eventModal = document.getElementById("event-modal");
   const closeButton = eventModal.querySelector("#close-button");
   const eventForm = eventModal.querySelector("#event-form");
+  console.log({ eventModal, closeButton, eventForm });
   closeButton.addEventListener("click", () => toggleModal());
   fetch("/get-random-calendar").then((response) => {
     if (!response.ok) {

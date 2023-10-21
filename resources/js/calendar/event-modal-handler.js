@@ -7,6 +7,8 @@ export const eventModalHandlerInit = () => {
   const closeButton = eventModal.querySelector('#close-button');
   const eventForm = eventModal.querySelector('#event-form');
 
+  console.log({ eventModal, closeButton, eventForm })
+
   // window.toggleModal = (id = false, type = 'create', chosenDay = undefined) => {
   //   if (id && !isNaN(id)) {
   //     eventModal.dataset.id = id;
