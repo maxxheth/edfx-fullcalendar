@@ -1,4 +1,3 @@
-<!-- @php use App\Filament\Resources\EventResource; @endphp -->
 <div id="event-modal" class="hide fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-0">
     <div class="mx-auto overflow-hidden rounded-lg bg-white shadow-xl w-1/2">
         <div class="relative p-6">

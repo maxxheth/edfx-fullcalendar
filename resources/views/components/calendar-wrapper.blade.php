@@ -1,10 +1,4 @@
-<!-- <x-app> -->
 <div>
-
-<!-- @push('scripts')
-    <script src="{{ assetFromManifest('resources/js/app.js') }}"></script>
-@endpush -->
-
     <div class="flex mx-auto mb-4">
     <div class="ml-auto flex flex-col">
         <div class="flex flex-col w-[170px]">
@@ -44,6 +38,4 @@
 
 
     <div id="calendar-inner"></div>
-    <!-- <x-event-modal /> -->
 </div>
-<!-- </x-app> -->
