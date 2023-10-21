@@ -1,9 +1,9 @@
 
 <x-filament-widgets::widget>
     <x-filament::section>
-        <div class="flex justify-end flex-1 mb-4">
+        <!-- <div class="flex justify-end flex-1 mb-4">
             <x-filament-actions::actions :actions="$this->getCachedHeaderActions()" class="shrink-0" />
-        </div>
+        </div> -->
 
         @include('components.calendar-wrapper')
         @include('components.event-modal')
@@ -23,5 +23,5 @@
         </div> -->
     </x-filament::section>
 
-    <x-filament-actions::modals />
+    <!-- <x-filament-actions::modals /> -->
 </x-filament-widgets::widget>
