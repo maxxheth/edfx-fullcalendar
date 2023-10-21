@@ -1,9 +1,9 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Widgets\Concerns;
+namespace Edfx\EdfxFullCalendar\Widgets\Concerns;
 
 use Carbon\Carbon;
-use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
+use Edfx\EdfxFullCalendar\FullCalendarPlugin;
 
 trait InteractsWithEvents
 {
@@ -103,7 +103,7 @@ trait InteractsWithEvents
 
     protected function calculateTimezoneOffset(string $start, ?string $end, bool $allDay): array
     {
-        $timezone = FilamentFullCalendarPlugin::make()->getTimezone();
+        $timezone = FullCalendarPlugin::make()->getTimezone();
 
         $start = Carbon::parse($start, $timezone);
 

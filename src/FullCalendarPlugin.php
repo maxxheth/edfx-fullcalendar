@@ -1,11 +1,12 @@
 <?php
 
-namespace Saade\FilamentFullCalendar;
+namespace Edfx\EdfxFullCalendar;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class FilamentFullCalendarPlugin implements Plugin
+
+class FullCalendarPlugin implements Plugin
 {
     protected array $plugins = ['dayGrid', 'timeGrid', 'interaction', 'list', 'moment', 'momentTimezone'];
 

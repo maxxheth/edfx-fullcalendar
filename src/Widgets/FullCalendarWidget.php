@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Widgets;
+namespace Edfx\EdfxFullCalendar\Widgets;
 
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -8,7 +8,7 @@ use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Widgets\Widget;
-use Saade\FilamentFullCalendar\Actions;
+use Edfx\EdfxFullCalendar\Actions;
 
 class FullCalendarWidget extends Widget implements HasForms, HasActions
 {
@@ -19,7 +19,7 @@ class FullCalendarWidget extends Widget implements HasForms, HasActions
     use Concerns\InteractsWithHeaderActions;
     use Concerns\InteractsWithModalActions;
 
-    protected static string $view = 'filament-fullcalendar::fullcalendar';
+    protected static string $view = 'edfx-fullcalendar::edfx-fullcalendar';
 
     protected int | string | array $columnSpan = 'full';
 

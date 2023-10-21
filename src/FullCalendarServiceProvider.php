@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar;
+namespace Edfx\EdfxFullCalendar;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
@@ -8,11 +8,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentFullCalendarServiceProvider extends PackageServiceProvider
+class FullCalendarServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'filament-fullcalendar';
+    public static string $name = 'edfx-fullcalendar';
 
-    public static string $viewNamespace = 'filament-fullcalendar';
+    public static string $viewNamespace = 'edfx-fullcalendar';
 
     public function configurePackage(Package $package): void
     {
@@ -31,7 +31,7 @@ class FilamentFullCalendarServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'saade/filament-fullcalendar';
+        return 'edfx/edfx-fullcalendar';
     }
 
     /**
@@ -40,8 +40,8 @@ class FilamentFullCalendarServiceProvider extends PackageServiceProvider
     protected function getAssets(): array
     {
         return [
-            AlpineComponent::make('filament-fullcalendar-alpine', __DIR__ . '/../dist/filament-fullcalendar.js'),
-            Css::make('filament-fullcalendar-styles', __DIR__ . '/../dist/filament-fullcalendar.css'),
+            AlpineComponent::make('edfx-fullcalendar', __DIR__ . '/../dist/fullcalendar.js'),
+            Css::make('edfx-fullcalendar-styles', __DIR__ . '/../dist/fullcalendar.css'),
         ];
     }
 }

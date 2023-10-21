@@ -1,17 +1,17 @@
 {
-    "name": "saade/filament-fullcalendar",
+    "name": "edfx/edfx-fullcalendar",
     "description": "The Most Popular JavaScript Calendar integrated with Filament 💛",
     "keywords": [
-        "saade",
+        "edfx",
         "laravel",
-        "filament-fullcalendar"
+        "edfx-fullcalendar"
     ],
     "homepage": "https://github.com/saade/filament-fullcalendar",
     "license": "MIT",
     "authors": [
         {
-            "name": "Saade",
-            "email": "saade@outlook.com.br",
+            "name": "Maxx",
+            "email": "info@edfx.co",
             "role": "Developer"
         }
     ],
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Saade\\FilamentFullCalendar\\": "src"
+            "Edfx\\FullCalendar\\": "src"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saade\\FilamentFullCalendar\\FilamentFullCalendarServiceProvider"
+                "Edfx\\EdfxFullCalendar\\EdfxFullCalendarServiceProvider"
             ]
         }
     },
