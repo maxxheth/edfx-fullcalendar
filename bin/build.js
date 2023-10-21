@@ -24,7 +24,8 @@ const defaultOptions = {
     sourcesContent: isDev,
     treeShaking: true,
     target: ['es2020'],
-    minify: !isDev,
+    // minify: !isDev,
+    minify: false,
     plugins: [{
         name: 'watchPlugin',
         setup: function (build) {
