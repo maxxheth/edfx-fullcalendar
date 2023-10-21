@@ -1,6 +1,3 @@
-@php
-    $plugin = \Saade\FilamentFullcalendar\FilamentFullCalendarPlugin::get();
-@endphp
 
 <x-filament-widgets::widget>
     <x-filament::section>

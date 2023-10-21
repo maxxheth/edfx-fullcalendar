@@ -19,6 +19,8 @@ class FullCalendarWidget extends Widget
     // use Concerns\InteractsWithHeaderActions;
     // use Concerns\InteractsWithModalActions;
 
+    public ?string $title = 'Calendar';
+
     protected static string $view = 'edfx-fullcalendar::edfx-fullcalendar';
 
     protected int | string | array $columnSpan = 'full';
